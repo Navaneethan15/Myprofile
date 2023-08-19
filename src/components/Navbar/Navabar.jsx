@@ -11,7 +11,7 @@ const Navabar =() =>{
             <div className="n-right">
                 <div className="n-list">
                     <ul style={{listStyle:'none'}}>
-                        <li>Home</li>
+                        <li>Home1</li>
                         <li>Serives</li>
                         <li>Experience</li>
                         <li>Protfolio</li>
