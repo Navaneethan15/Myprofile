@@ -11,7 +11,7 @@ const Navabar =() =>{
             <div className="n-right">
                 <div className="n-list">
                     <ul style={{listStyle:'none'}}>
-                        <li>Home1</li>
+                        <li>Home</li>
                         <li>Serives</li>
                         <li>Experience</li>
                         <li>Protfolio</li>
@@ -22,7 +22,7 @@ const Navabar =() =>{
                     Contact
                 </button>
             </div>
-x
+
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import {Swiper, SwiperSlide} from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const Portfolio =() =>{
     return(
@@ -12,6 +12,7 @@ const Portfolio =() =>{
 
         {/* Slide  */}
         
+
         </div>
     )
 }
