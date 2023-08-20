@@ -4,6 +4,7 @@ import heart from '../../img/heartemoji.png';
 import Glass from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Card from '../card/Card';
+import  color from '../../img/purpleblur.png'
 
 
 const Serivces =() =>{
@@ -54,6 +55,8 @@ const Serivces =() =>{
         
         />
         </div>
+
+        <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
         </div>
 
 
