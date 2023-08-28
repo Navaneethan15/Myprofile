@@ -6,12 +6,6 @@ import amazon from '../../img/amazon.png';
 import facebook from '../../img/Facebook.png';
 import shopify from '../../img/Shopify.png';
 
-
-
-
-
-
-
 const Works =() =>{
     return(
        <div className="works">
