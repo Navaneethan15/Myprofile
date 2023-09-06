@@ -49,8 +49,6 @@ const Works =() =>{
         {/* background cricle */}
         <div className="w-backcricle bluecricle"></div>
         <div className="w-backcricle yellowcricle"></div>
-
-
         </div>
        </div>
     )
