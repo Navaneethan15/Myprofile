@@ -4,7 +4,7 @@ import heart from '../../img/heartemoji.png';
 import Glass from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Card from '../card/Card';
-import  color from '../../img/purpleblur.png'
+// import  color from '../../img/purpleblur.png';
 
 
 const Serivces =() =>{
@@ -35,7 +35,7 @@ const Serivces =() =>{
         
         />
         </div>
-                {/* 2rd card  */}
+            {/* 2rd card  */}
             
          <div style={{ top:"12rem", left:"-4rem"}}>
         <Card
@@ -52,15 +52,14 @@ const Serivces =() =>{
         emoij={humble}
         heading={'UI/UX'}
         detail={"IAM A GOOD PERSON "}
-        
         />
         </div>
 
         <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
         </div>
-
-
-
+         
+          
+              
        </div>
     )
 }

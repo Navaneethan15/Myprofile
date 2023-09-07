@@ -44,7 +44,7 @@ const Testmonial = () => {
             <span>Clients alwys get </span>
             <span>Exceptional Work</span>
             <span> Form me...</span>
-            <div className="blur t-blur1" style={{background: "var(--puple)"}}></div>
+            <div className="blur t-blur1" style={{background: "var(--purple)"}}></div>
             <div className="blur t-blur2" style={{background: "skyblue"}}></div>
            
         </div>
@@ -59,8 +59,10 @@ const Testmonial = () => {
     {clients.map((client, index) => {
         return(
             <SwiperSlide key={index}>
+              <div className="testmonial">
                 <img src={client.img} alt="" />
                 <span> {client.review}</span>
+                </div>
             </SwiperSlide>
         )
     })}

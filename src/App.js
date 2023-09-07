@@ -6,6 +6,7 @@ import Experience from './components/Experience/Experience';
 import Works from './components/work/Works';
 import Portfolio from './components/portfolio/Portfolio';
 import Testmonial from './components/Testmonial/Testmonial';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Works/>
       <Portfolio/>
       <Testmonial/>
+      <Contact/>
     </div>
   );
 }
