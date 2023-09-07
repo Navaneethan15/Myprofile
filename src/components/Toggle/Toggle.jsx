@@ -6,6 +6,8 @@ import { BsFillMoonStarsFill } from 'react-icons/bs';
 const Toggle = () => {
   return (
     <div className="toggle">
+
+          
             <BsFillMoonStarsFill/>
             <BsFillSunFill/>
             <div className="t-button">
