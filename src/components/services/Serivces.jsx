@@ -5,6 +5,7 @@ import Glass from '../../img/glasses.png';
 import humble from '../../img/humble.png';
 import Card from '../card/Card';
 // import  color from '../../img/purpleblur.png';
+import resume from '../../RESUME/NAVANEETHAN.N.pdf';
 
 
 const Serivces =() =>{
@@ -16,7 +17,7 @@ const Serivces =() =>{
         <span>My Awesome</span>
         <span> Serivces</span>
         <span> some text to write hello every one, good work to impore your self   <br/> some text </span>
-        <a >
+        <a href={resume} download >
         <button className="button s-button"> Download cv</button>
         </a>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
