@@ -19,24 +19,35 @@ const Contact = () => {
   };
   return (
      <div className="contact-from">
+
         <div className="w-left">
+
             <div className="awesome">
+
                 <span>Get in touch</span>
+
                 <span>Contact Me</span>
+
                 <div className="blur s-blur" style={{background: "#ABF1FF94"}}></div>
+
             </div>
+            
         </div>
 
         <div className="c-right">
+
             <form ref={form} onSubmit={sendEmail}>
+
                 <input type='text' name='user_name' className='user' placeholder='Name'></input>
+
                 <input type='email' name='user_email' className='user' placeholder='Email'></input>
+
                 <input type='message' className='user' name='user_message' placeholder='massage'></input>
+
                 <input type='submit' value='send' className='button'/>
 
-                <div className="blur c-blur1" style={{background: "var(--purple)"}}>
+                <div className="blur c-blur1" style={{background: "var(--purple)"}}> </div>
 
-                </div>
             </form>
 
         </div>
@@ -47,4 +58,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

@@ -15,11 +15,11 @@ const Works =() =>{
         <span> some text to write hello every one, good work to impore your self 
              
               <br/> 
-              some text  agin to the variablr to the
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, porro!
               <br/> 
-              some to to the emty the div the more than above 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               <br/>
-               some text to write hello every one, good work to impore your self
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, expedita.
               </span>
         
         <button className="button s-button"> Hire Me</button>
@@ -29,7 +29,9 @@ const Works =() =>{
         </div>
         {/* right side  */}
         <div className="w-right">
+
         <div className="w-maincricle">
+            
         <div className="w-2cricle">
             <img src={upwork} alt="" />
             </div>
