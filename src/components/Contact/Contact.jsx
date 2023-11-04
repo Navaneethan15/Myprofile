@@ -1,10 +1,12 @@
 // import React from 'react'
 import './Contact.css'
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const form = useRef();
+    
+    const [done, setdone] = useState(false)
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,6 +14,7 @@ const Contact = () => {
     emailjs.sendForm('service_9fx7tcw', 'template_793x38a', form.current, '9GRX-ZM9EvjxWbe-6')
       .then((result) => {
           console.log(result.text);
+          setdone(true);
           
       }, (error) => {
           console.log(error.text);
@@ -38,13 +41,15 @@ const Contact = () => {
 
             <form ref={form} onSubmit={sendEmail}>
 
-                <input type='text' name='user_name' className='user' placeholder='Name'></input>
+                <input autoComplete="off"  type='text' name='user_name' className='user' placeholder='Name'></input>
 
-                <input type='email' name='user_email' className='user' placeholder='Email'></input>
+                <input  autoComplete="off" type='email' name='user_email' className='user' placeholder='Email'></input>
 
-                <input type='message' className='user' name='user_message' placeholder='massage'></input>
+                <input autoComplete="off"  type='messag' className='user' name='user_message' placeholder='massage' ></input>
 
-                <input type='submit' value='send' className='button'/>
+                <input  type='submit' value='send' className='button'/>
+
+                <span>{done && "thanks for contacting me!"}</span>
 
                 <div className="blur c-blur1" style={{background: "var(--purple)"}}> </div>
 

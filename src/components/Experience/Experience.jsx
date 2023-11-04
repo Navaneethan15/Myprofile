@@ -5,13 +5,13 @@ const Experience =() =>{
     return(
         <div className="experience">
            <div className="achievement">
-            <div className="cricle">8+</div>
+            <div className="cricle">1+</div>
             <span>year</span>
             <span>Experience</span>
             </div> 
 
             <div className="achievement">
-            <div className="cricle">2+</div>
+            <div className="cricle">1+</div>
             <span>Completed</span>
             <span>projects</span>
             </div> 

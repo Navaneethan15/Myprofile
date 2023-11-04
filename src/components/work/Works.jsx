@@ -35,18 +35,23 @@ const Works =() =>{
         <div className="w-2cricle">
             <img src={upwork} alt="" />
             </div>
+
         <div className="w-2cricle">
             <img src={fiverr} alt="" />
         </div>
+
         <div className="w-2cricle">
             <img src={amazon} alt="" />
         </div>
+
         <div className="w-2cricle">
             <img src={shopify} alt="" />
         </div>
+
         <div className="w-2cricle">
             <img src={facebook} alt="" />
         </div>
+        
         </div>
         {/* background cricle */}
         <div className="w-backcricle bluecricle"></div>

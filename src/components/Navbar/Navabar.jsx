@@ -23,7 +23,6 @@ const Navabar =() =>{
                     Contact
                 </button>
             </div>
-
         </div>
     )
 }

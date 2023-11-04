@@ -5,9 +5,9 @@ import inst from '../../img/instagram.png';
 import linkedin from '../../img/linkedin.png';
 import vector1 from '../../img/Vector1.png';
 import vector2 from '../../img/Vector2.png';
-import boy from '../../img/boy.png';
-import navi1 from '../../img/navi01.jpg'
-import navi2 from '../../img/navi02.jpg'
+// import boy from '../../img/boy.png';
+// import navi1 from '../../img/navi01.jpg'
+// import navi2 from '../../img/navi02.jpg'
 import navi3 from '../../img/navi04.png'
 import thumbup  from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
