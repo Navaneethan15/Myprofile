@@ -16,7 +16,6 @@
     height: 18rem;
     border-radius: 100%;
     box-shadow: var(--smboxShadow);
-    /* background-color: blue; */
     top: 2rem;
     background:white;
 }
