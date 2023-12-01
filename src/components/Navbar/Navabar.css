@@ -40,3 +40,8 @@
     width: 6rem;
     height: 2rem;
 }
+@media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
