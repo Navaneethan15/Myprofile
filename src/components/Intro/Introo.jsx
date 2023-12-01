@@ -15,6 +15,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import glassesimoji from '../../img/glassesimoji.png';
 
 const Introo =() =>{
+    
     return(
         <div className="intro">
             <div className="i-left">
@@ -31,9 +32,9 @@ const Introo =() =>{
                     <img src={Git} alt="git" ></img>
                     </a>
                 <a>
-                <img src={linkedin} ></img>
+                <img src={linkedin}alt='pic' ></img>
                 </a>
-                <a> <img src={inst} ></img>
+                <a> <img src={inst} alt='pic' ></img>
                 </a>
                 
                 
@@ -41,10 +42,10 @@ const Introo =() =>{
                 
             </div>
             <div className="i-right">
-            <img src= {vector1}  ></img>
-            <img src= {vector2} ></img>
-            <img src= {navi3} ></img>
-            <img src= {glassesimoji} ></img>
+            <img src= {vector1}alt='picc'  ></img>
+            <img src= {vector2}alt='picc' ></img>
+            <img src= {navi3}alt='picc' ></img>
+            <img src= {glassesimoji} alt='picc'></img>
             <div style={{top:'-4%', left: '68%'}}>
                 <FloatingDiv image= {crown} txt1='Web' txt2='Developer' />
             </div  > 
